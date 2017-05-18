@@ -17,7 +17,7 @@ import com.xinzy.wechat.voice.downloader.util.Utils;
 public class Processor implements ErrorCallback {
 	public static final int POOL_SIZE = 3;
 	
-	private String mUrl;
+	private List<String> mUrls;
 	private boolean mSaveContent;
 	private ExecutorService mExecutorService;
 	private AtomicInteger mAtomicInteger = new AtomicInteger(1);
@@ -29,18 +29,23 @@ public class Processor implements ErrorCallback {
 		}
 	};
 	
-	public Processor(String url, boolean saveContent) {
-		this.mUrl = url;
+	public Processor(List<String> urls, boolean saveContent) {
+		this.mUrls = urls;
 		this.mSaveContent = saveContent;
 		mExecutorService = Executors.newFixedThreadPool(POOL_SIZE, mThreadFactory);
 	}
 	
 	public void process() {
-		String content = Utils.loadContent(mUrl);
+		mUrls.stream().forEach(url -> process0(url));
+	}
+	
+	private void process0(String url) {
+
+		String content = Utils.loadContent(url);
 		if (!Utils.isEmpty(content)) {
 			String title = HtmlParser.parseTitle(content);
 			if (Utils.isEmpty(title)) {
-				title = Utils.md5(mUrl);
+				title = Utils.md5(url);
 			}
 			File dir = new File(WechatVoice.DOWNLOAD_DIR + "/" + title);
 			if (! dir.exists()) dir.mkdirs();
@@ -54,7 +59,7 @@ public class Processor implements ErrorCallback {
 			
 			List<String> urls = getUrls(content);
 			final String bookName = title;
-			urls.stream().forEach(url -> addTask(url, bookName, mSaveContent));
+			urls.stream().forEach(u -> addTask(u, bookName, mSaveContent));
 		}
 	}
 	
