@@ -17,11 +17,6 @@ import com.xinzy.wechat.voice.downloader.util.Utils;
 public class Processor implements ErrorCallback {
 	public static final int POOL_SIZE = 3;
 	
-	private List<String> mUrls;
-	private boolean mSaveContent;
-	private ExecutorService mExecutorService;
-	private AtomicInteger mAtomicInteger = new AtomicInteger(1);
-	
 	private ThreadFactory mThreadFactory = new ThreadFactory() {
 		@Override
 		public Thread newThread(Runnable r) {
@@ -29,14 +24,29 @@ public class Processor implements ErrorCallback {
 		}
 	};
 	
+	private List<String> mUrls;
+	private String mTitle;
+	private boolean mSaveContent;
+	private ExecutorService mExecutorService = Executors.newFixedThreadPool(POOL_SIZE, mThreadFactory);;
+	private AtomicInteger mAtomicInteger = new AtomicInteger(1);
+	
 	public Processor(List<String> urls, boolean saveContent) {
 		this.mUrls = urls;
 		this.mSaveContent = saveContent;
-		mExecutorService = Executors.newFixedThreadPool(POOL_SIZE, mThreadFactory);
+	}
+	
+	public Processor(List<String> urls, String title, boolean saveContent) {
+		this.mUrls = urls;
+		this.mTitle = title;
+		this.mSaveContent = saveContent;
 	}
 	
 	public void process() {
 		mUrls.stream().forEach(url -> process0(url));
+	}
+	
+	public void download() {
+		mUrls.stream().forEach(url -> addTask(url, mTitle, mSaveContent));
 	}
 	
 	private void process0(String url) {
