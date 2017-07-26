@@ -6,6 +6,7 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
+//			"http://mp.weixin.qq.com/s/TkLm6Q0JYXAQYRf3eKmGrg",	//灰犀牛
 //			"http://mp.weixin.qq.com/s/ILLrWVheR7eHtyk_BS6rYQ", //​穷查理宝典
 //			"http://mp.weixin.qq.com/s/cZsV2nL6nx2hiN8P6U6EfA", //股票作手回忆录
 //			"http://mp.weixin.qq.com/s/xmbJWtC1ZsitCHzgmPUQQg", //为什么中国人勤劳而不富有
