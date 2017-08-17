@@ -6,6 +6,8 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
+//			"http://mp.weixin.qq.com/s/2DULpwUawXPGyqA7gD6TfA", //滚雪球
+//			"http://mp.weixin.qq.com/s/e7yBj1LCmQbwv_UUURT6Pw", //怎样选择成长股
 //			"http://mp.weixin.qq.com/s/TkLm6Q0JYXAQYRf3eKmGrg",	//灰犀牛
 //			"http://mp.weixin.qq.com/s/ILLrWVheR7eHtyk_BS6rYQ", //​穷查理宝典
 //			"http://mp.weixin.qq.com/s/cZsV2nL6nx2hiN8P6U6EfA", //股票作手回忆录
