@@ -6,8 +6,9 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", //激荡三十年(上)
-			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", //激荡三十年(下)
+			"https://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
+//			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", //激荡三十年(上)
+//			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", //激荡三十年(下)
 //			"http://mp.weixin.qq.com/s/mcdVuregO-g3b1twe9RCJQ", //小狗钱钱
 //			"http://mp.weixin.qq.com/s/2DULpwUawXPGyqA7gD6TfA", //滚雪球
 //			"http://mp.weixin.qq.com/s/e7yBj1LCmQbwv_UUURT6Pw", //怎样选择成长股
@@ -51,7 +52,7 @@ public class WechatVoice {
 	};
 	
 	public static void main(String[] args) {
-		single();
+		batch();
 	}
 	
 	static void single() {
