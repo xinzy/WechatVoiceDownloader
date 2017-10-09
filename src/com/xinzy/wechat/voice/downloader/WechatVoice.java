@@ -6,7 +6,9 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"https://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
+			"http://mp.weixin.qq.com/s/4hzNnA_xxokfXESkcfp4Lw", //​ 硅谷钢铁侠 
+			"http://mp.weixin.qq.com/s/OPGoYVndctbT1VrmiPOqag", //一课经济学 合集 
+//			"https://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
 //			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", //激荡三十年(上)
 //			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", //激荡三十年(下)
 //			"http://mp.weixin.qq.com/s/mcdVuregO-g3b1twe9RCJQ", //小狗钱钱
@@ -46,7 +48,7 @@ public class WechatVoice {
 	};
 	
 	public static final String[] SINGLE_URLS = {
-			"https://mp.weixin.qq.com/s?__biz=MzA5NTA2NTU4Mw==&mid=2247487411&idx=2&sn=a6aed26e602832622cd3884785f555dc&chksm=90444b33a733c2258d5bd0e298c915bc1b23033caae0b8153f17521f7ec2b0ebb146c0787537&scene=21#wechat_redirect",
+//			"https://mp.weixin.qq.com/s?__biz=MzA5NTA2NTU4Mw==&mid=2247487411&idx=2&sn=a6aed26e602832622cd3884785f555dc&chksm=90444b33a733c2258d5bd0e298c915bc1b23033caae0b8153f17521f7ec2b0ebb146c0787537&scene=21#wechat_redirect",
 //			"https://mp.weixin.qq.com/s?__biz=MzA5NTA2NTU4Mw==&mid=2247486714&idx=2&sn=d79d51f518b4b45fe90d777dce42e7ec&chksm=9044487aa733c16ca8347669fe979977762a5bb40ba4b1d86c12849385a5fe3314b7abc54c81&mpshare=1&scene=1&srcid=0621qaygPfdmKRK1uei0Lgnf&key=71bc190ce51da5654ef334341a8e6fa591abee51ca2d58140978679de512fe3de5396c93b4d56222790d405539e2a2ba3bddc94fa3c2ae212e99706aaedaa5d0b3f0be2fec4fb374b0fce36e9e69d1a4&ascene=0&uin=MTc3OTkzOTYw&devicetype=iMac+MacBookPro11%2C2+OSX+OSX+10.10.5+build(14F2009)&version=12020810&nettype=WIFI&fontScale=100&pass_ticket=7d9erXu49nnOMpAL9pw7fkjYdX9IKmCq4t12SUYuGYc%3D",
 //			"https://mp.weixin.qq.com/s?__biz=MzA5NTA2NTU4Mw==&mid=2247486746&idx=1&sn=1dc163ede357c9f8ab6e3f57b805ffdb&chksm=9044499aa733c08cba1188192c0d9b3647df6d22693d7f33110bf836ac843475303b59a8e3b8&mpshare=1&scene=1&srcid=06213lw7rTsPQBy9L2D7P95B&key=d1e338eab434b0b482d820b68df34734fcb68a4f0554a4284508d21a6aae6094f965341a1d83e2e0068a7d0a3b5ab7c9663e5e9eeded73a68772b55212032c723c5be91181dfd0d5f172b7e1cfc62178&ascene=0&uin=MTc3OTkzOTYw&devicetype=iMac+MacBookPro11%2C2+OSX+OSX+10.10.5+build(14F2009)&version=12020810&nettype=WIFI&fontScale=100&pass_ticket=7d9erXu49nnOMpAL9pw7fkjYdX9IKmCq4t12SUYuGYc%3D"
 	};
