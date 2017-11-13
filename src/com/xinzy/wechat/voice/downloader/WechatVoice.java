@@ -6,7 +6,10 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/KFEtwwQgixYYDMis_g9IBQ", // 《富爸爸》给你的钱找份工作
+			"http://mp.weixin.qq.com/s/jg0RoLOdRK7oFb9IN1x3HQ", //从零到一
+//			"http://mp.weixin.qq.com/s/jaUTzXx3yCe7ose9xdLUJg", // 哈佛财商课 全集
+//			"http://mp.weixin.qq.com/s/IEkg7KuNsr8zIs6dFKe4cw", // 彼得林奇的成功投资 全集
+//			"http://mp.weixin.qq.com/s/KFEtwwQgixYYDMis_g9IBQ", // 《富爸爸》给你的钱找份工作
 //			"http://mp.weixin.qq.com/s/4hzNnA_xxokfXESkcfp4Lw", //​ 硅谷钢铁侠 
 //			"http://mp.weixin.qq.com/s/OPGoYVndctbT1VrmiPOqag", //一课经济学 合集 
 //			"https://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
