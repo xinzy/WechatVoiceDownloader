@@ -6,7 +6,10 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/gfq9tbl_-dF_O92dKIhfWQ", //长尾理论
+			"http://mp.weixin.qq.com/s/aGD55FZq0kzH2ZF7SmPe_w", // 我在高盛的经济预测法
+//			"http://mp.weixin.qq.com/s/nxBWJvce_QLvcoR0-SYMhQ", // 聪明的投资者
+//			"http://mp.weixin.qq.com/s/sEAH8qYoCVRRlyR3UTSBfA", // 中国式价值投资
+//			"http://mp.weixin.qq.com/s/gfq9tbl_-dF_O92dKIhfWQ", //长尾理论
 //			"http://mp.weixin.qq.com/s/lIvRd8KSv9tvVt-23BEvRg", //饥饿的盛世
 //			"http://mp.weixin.qq.com/s/jg0RoLOdRK7oFb9IN1x3HQ", //从零到一
 //			"http://mp.weixin.qq.com/s/jaUTzXx3yCe7ose9xdLUJg", // 哈佛财商课 全集
