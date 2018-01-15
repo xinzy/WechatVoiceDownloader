@@ -6,8 +6,10 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/pKUpkqwlQswFo9223uqRBA", // 股市稳赚
-			"http://mp.weixin.qq.com/s/m0ZSlEScoABLUKqdSGSsww", // 李嘉诚的投资智慧
+			"http://mp.weixin.qq.com/s/Ri_bkyyvFEkPuT9IkCymww", // 基金投资入门与实战技巧
+//			"http://mp.weixin.qq.com/s/knwNSJ8t9hocbVu9r0oG3w", // 麦肯锡思维
+//			"http://mp.weixin.qq.com/s/pKUpkqwlQswFo9223uqRBA", // 股市稳赚
+//			"http://mp.weixin.qq.com/s/m0ZSlEScoABLUKqdSGSsww", // 李嘉诚的投资智慧
 //			"http://mp.weixin.qq.com/s/jDJSEJyZuSpCShA5mR8rbw",	// 李嘉诚传
 //			"http://mp.weixin.qq.com/s/aGD55FZq0kzH2ZF7SmPe_w", // 我在高盛的经济预测法
 //			"http://mp.weixin.qq.com/s/nxBWJvce_QLvcoR0-SYMhQ", // 聪明的投资者
