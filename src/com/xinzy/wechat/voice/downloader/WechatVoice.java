@@ -6,7 +6,9 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/NqvF29GnjmITQ1RiXTeyrA", // 海龟交易法则 合集
+			"http://mp.weixin.qq.com/s/M8-FNcdeKsn_kz9EnKx7FA", //IF定律 攻心说话艺术 合集
+//			"http://mp.weixin.qq.com/s/97qsCyJruFiJWgq3wEGaWA", // 卓有成效的管理者 合集
+//			"http://mp.weixin.qq.com/s/NqvF29GnjmITQ1RiXTeyrA", // 海龟交易法则 合集
 //			"http://mp.weixin.qq.com/s/Ri_bkyyvFEkPuT9IkCymww", // 基金投资入门与实战技巧
 //			"http://mp.weixin.qq.com/s/knwNSJ8t9hocbVu9r0oG3w", // 麦肯锡思维
 //			"http://mp.weixin.qq.com/s/pKUpkqwlQswFo9223uqRBA", // 股市稳赚
@@ -23,7 +25,7 @@ public class WechatVoice {
 //			"http://mp.weixin.qq.com/s/KFEtwwQgixYYDMis_g9IBQ", // 《富爸爸》给你的钱找份工作
 //			"http://mp.weixin.qq.com/s/4hzNnA_xxokfXESkcfp4Lw", //​ 硅谷钢铁侠 
 //			"http://mp.weixin.qq.com/s/OPGoYVndctbT1VrmiPOqag", //一课经济学 合集 
-//			"https://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
+//			"http://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
 //			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", //激荡三十年(上)
 //			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", //激荡三十年(下)
 //			"http://mp.weixin.qq.com/s/mcdVuregO-g3b1twe9RCJQ", //小狗钱钱
