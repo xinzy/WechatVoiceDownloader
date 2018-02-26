@@ -6,7 +6,8 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
-			"http://mp.weixin.qq.com/s/M8-FNcdeKsn_kz9EnKx7FA", //IF定律 攻心说话艺术 合集
+//			"http://mp.weixin.qq.com/s/hCwUlV0nXSfEpaEZUgFxhw", //​ 财务自由之路 合集
+//			"http://mp.weixin.qq.com/s/M8-FNcdeKsn_kz9EnKx7FA", // IF定律 攻心说话艺术 合集
 //			"http://mp.weixin.qq.com/s/97qsCyJruFiJWgq3wEGaWA", // 卓有成效的管理者 合集
 //			"http://mp.weixin.qq.com/s/NqvF29GnjmITQ1RiXTeyrA", // 海龟交易法则 合集
 //			"http://mp.weixin.qq.com/s/Ri_bkyyvFEkPuT9IkCymww", // 基金投资入门与实战技巧
@@ -17,51 +18,51 @@ public class WechatVoice {
 //			"http://mp.weixin.qq.com/s/aGD55FZq0kzH2ZF7SmPe_w", // 我在高盛的经济预测法
 //			"http://mp.weixin.qq.com/s/nxBWJvce_QLvcoR0-SYMhQ", // 聪明的投资者
 //			"http://mp.weixin.qq.com/s/sEAH8qYoCVRRlyR3UTSBfA", // 中国式价值投资
-//			"http://mp.weixin.qq.com/s/gfq9tbl_-dF_O92dKIhfWQ", //长尾理论
-//			"http://mp.weixin.qq.com/s/lIvRd8KSv9tvVt-23BEvRg", //饥饿的盛世
-//			"http://mp.weixin.qq.com/s/jg0RoLOdRK7oFb9IN1x3HQ", //从零到一
+//			"http://mp.weixin.qq.com/s/gfq9tbl_-dF_O92dKIhfWQ", // 长尾理论
+//			"http://mp.weixin.qq.com/s/lIvRd8KSv9tvVt-23BEvRg", // 饥饿的盛世
+//			"http://mp.weixin.qq.com/s/jg0RoLOdRK7oFb9IN1x3HQ", // 从零到一
 //			"http://mp.weixin.qq.com/s/jaUTzXx3yCe7ose9xdLUJg", // 哈佛财商课 全集
 //			"http://mp.weixin.qq.com/s/IEkg7KuNsr8zIs6dFKe4cw", // 彼得林奇的成功投资 全集
 //			"http://mp.weixin.qq.com/s/KFEtwwQgixYYDMis_g9IBQ", // 《富爸爸》给你的钱找份工作
 //			"http://mp.weixin.qq.com/s/4hzNnA_xxokfXESkcfp4Lw", //​ 硅谷钢铁侠 
 //			"http://mp.weixin.qq.com/s/OPGoYVndctbT1VrmiPOqag", //一课经济学 合集 
 //			"http://mp.weixin.qq.com/s/VnsMvRxiTCu5FcDa39MM7Q", // ​怎样选择成长股 【费雪】全集
-//			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", //激荡三十年(上)
-//			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", //激荡三十年(下)
-//			"http://mp.weixin.qq.com/s/mcdVuregO-g3b1twe9RCJQ", //小狗钱钱
-//			"http://mp.weixin.qq.com/s/2DULpwUawXPGyqA7gD6TfA", //滚雪球
-//			"http://mp.weixin.qq.com/s/e7yBj1LCmQbwv_UUURT6Pw", //怎样选择成长股
-//			"http://mp.weixin.qq.com/s/TkLm6Q0JYXAQYRf3eKmGrg",	//灰犀牛
-//			"http://mp.weixin.qq.com/s/ILLrWVheR7eHtyk_BS6rYQ", //​穷查理宝典
-//			"http://mp.weixin.qq.com/s/cZsV2nL6nx2hiN8P6U6EfA", //股票作手回忆录
-//			"http://mp.weixin.qq.com/s/xmbJWtC1ZsitCHzgmPUQQg", //为什么中国人勤劳而不富有
-//			"http://mp.weixin.qq.com/s/cDquEhAd94q02MkMQ58RzA", //战胜华尔街
-//			"http://mp.weixin.qq.com/s/YOLmhEz8r4lyhOdPRvTdfQ", //影响力
-//			"http://mp.weixin.qq.com/s/wzqQgzA9Z1G9CbYMl25H5g", //手把手教你读财报
-//			"http://mp.weixin.qq.com/s/RT8ZoqOk4L6Oydp74gudWw", //雪球投资
-//			"http://mp.weixin.qq.com/s/pXL5jN1Nxr7vGgqTwZRtvg", //海底捞你学不会
-//			"http://mp.weixin.qq.com/s/X62UwNWgba77qMA_MHdJsw", //索罗斯带你走出金融危机 
-//			"http://mp.weixin.qq.com/s/dkNNl0k0svO1vE8ngBMbCw", //量化投资
-//			"http://mp.weixin.qq.com/s/P6i87siJuS8ubDOjDtLIBQ", //巴菲特如何选出超级明星股
-//			"http://mp.weixin.qq.com/s/slxbZdIs2DhusF-ks2_9vA", //鞋狗——耐克的故事
-//			"http://mp.weixin.qq.com/s/ivGoL2xjmrpISOfAl0VBiw", //投资中最简单的事
-//			"http://mp.weixin.qq.com/s/CzGIy3fi3F0ppBLv7BxzZw", //腾讯传
-//			"http://mp.weixin.qq.com/s/zP-pMhQt2NbSn5UKihjrLA", //美国人为什么支持特朗普
-//			"http://mp.weixin.qq.com/s/jBKY4A711YGjLLkWRHHf7w", //周鸿祎的互联网方法论
-//			"http://mp.weixin.qq.com/s/WyoOWeyregWGhbJmx4JrvQ", //为什么你买不起房
-//			"http://mp.weixin.qq.com/s/XsY8ZolFCE55P0ZHqDiCEg", //中国楼市的前世今生
-//			"http://mp.weixin.qq.com/s/i89YJZeAZiA5qLlgvtnkDw", //低风险投资之路
-//			"http://mp.weixin.qq.com/s/ZygRK3kux3jFWWBGWKDhuw", //爆品战略
-//			"http://mp.weixin.qq.com/s/Ured9S8fbF34Xm8pNKULSQ", //股市投资的24堂必修课
-//			"http://mp.weixin.qq.com/s/-cLKdkpq3Hg99at-5NJX7Q", //定位
-//			"http://mp.weixin.qq.com/s/uH42EtAPDpEhq8MgTMqwTg", //大败局（上）
-//			"http://mp.weixin.qq.com/s/HeIOjDupaCXueD_jSE86Uw", //大败局（下）
-//			"http://mp.weixin.qq.com/s/v4ZUQdl_Axi93FCjcqsr9g", //历代经济变革得失
-//			"http://mp.weixin.qq.com/s/k7wPdGGjNYcP2OZrXG_G1A", //基金定投
-//			"http://mp.weixin.qq.com/s/73Iv9qnMt6Y5TMMgfC-1SA", //经济学思维
-//			"http://mp.weixin.qq.com/s/J8iJNybFtRq7IfhHwkfilQ", //创京东
-//			"http://mp.weixin.qq.com/s/SrKtb8PHHW2H1HZdH-0THA", //《雪球岛系列》及《说估值系列》
-//			"http://mp.weixin.qq.com/s/kJ5Gr08wwQJftYRT3Ouo6Q", //富爸爸系列之财富自由之路
+//			"http://mp.weixin.qq.com/s/jsavez01T_5K3bgLGVtGPA", // 激荡三十年(上)
+//			"http://mp.weixin.qq.com/s/rzICNYJvgwujGTAAXJr8Ug", // 激荡三十年(下)
+//			"http://mp.weixin.qq.com/s/mcdVuregO-g3b1twe9RCJQ", // 小狗钱钱
+//			"http://mp.weixin.qq.com/s/2DULpwUawXPGyqA7gD6TfA", // 滚雪球
+//			"http://mp.weixin.qq.com/s/e7yBj1LCmQbwv_UUURT6Pw", // 怎样选择成长股
+//			"http://mp.weixin.qq.com/s/TkLm6Q0JYXAQYRf3eKmGrg",	// 灰犀牛
+//			"http://mp.weixin.qq.com/s/ILLrWVheR7eHtyk_BS6rYQ", //​ 穷查理宝典
+//			"http://mp.weixin.qq.com/s/cZsV2nL6nx2hiN8P6U6EfA", // 股票作手回忆录
+//			"http://mp.weixin.qq.com/s/xmbJWtC1ZsitCHzgmPUQQg", // 为什么中国人勤劳而不富有
+//			"http://mp.weixin.qq.com/s/cDquEhAd94q02MkMQ58RzA", // 战胜华尔街
+//			"http://mp.weixin.qq.com/s/YOLmhEz8r4lyhOdPRvTdfQ", // 影响力
+//			"http://mp.weixin.qq.com/s/wzqQgzA9Z1G9CbYMl25H5g", // 手把手教你读财报
+//			"http://mp.weixin.qq.com/s/RT8ZoqOk4L6Oydp74gudWw", // 雪球投资
+//			"http://mp.weixin.qq.com/s/pXL5jN1Nxr7vGgqTwZRtvg", // 海底捞你学不会
+//			"http://mp.weixin.qq.com/s/X62UwNWgba77qMA_MHdJsw", // 索罗斯带你走出金融危机 
+//			"http://mp.weixin.qq.com/s/dkNNl0k0svO1vE8ngBMbCw", // 量化投资
+//			"http://mp.weixin.qq.com/s/P6i87siJuS8ubDOjDtLIBQ", // 巴菲特如何选出超级明星股
+//			"http://mp.weixin.qq.com/s/slxbZdIs2DhusF-ks2_9vA", // 鞋狗——耐克的故事
+//			"http://mp.weixin.qq.com/s/ivGoL2xjmrpISOfAl0VBiw", // 投资中最简单的事
+//			"http://mp.weixin.qq.com/s/CzGIy3fi3F0ppBLv7BxzZw", // 腾讯传
+//			"http://mp.weixin.qq.com/s/zP-pMhQt2NbSn5UKihjrLA", // 美国人为什么支持特朗普
+//			"http://mp.weixin.qq.com/s/jBKY4A711YGjLLkWRHHf7w", // 周鸿祎的互联网方法论
+//			"http://mp.weixin.qq.com/s/WyoOWeyregWGhbJmx4JrvQ", // 为什么你买不起房
+//			"http://mp.weixin.qq.com/s/XsY8ZolFCE55P0ZHqDiCEg", // 中国楼市的前世今生
+//			"http://mp.weixin.qq.com/s/i89YJZeAZiA5qLlgvtnkDw", // 低风险投资之路
+//			"http://mp.weixin.qq.com/s/ZygRK3kux3jFWWBGWKDhuw", // 爆品战略
+//			"http://mp.weixin.qq.com/s/Ured9S8fbF34Xm8pNKULSQ", // 股市投资的24堂必修课
+//			"http://mp.weixin.qq.com/s/-cLKdkpq3Hg99at-5NJX7Q", // 定位
+//			"http://mp.weixin.qq.com/s/uH42EtAPDpEhq8MgTMqwTg", // 大败局（上）
+//			"http://mp.weixin.qq.com/s/HeIOjDupaCXueD_jSE86Uw", // 大败局（下）
+//			"http://mp.weixin.qq.com/s/v4ZUQdl_Axi93FCjcqsr9g", // 历代经济变革得失
+//			"http://mp.weixin.qq.com/s/k7wPdGGjNYcP2OZrXG_G1A", // 基金定投
+//			"http://mp.weixin.qq.com/s/73Iv9qnMt6Y5TMMgfC-1SA", // 经济学思维
+//			"http://mp.weixin.qq.com/s/J8iJNybFtRq7IfhHwkfilQ", // 创京东
+//			"http://mp.weixin.qq.com/s/SrKtb8PHHW2H1HZdH-0THA", // 《雪球岛系列》及《说估值系列》
+//			"http://mp.weixin.qq.com/s/kJ5Gr08wwQJftYRT3Ouo6Q", // 富爸爸系列之财富自由之路
 	};
 	
 	public static final String[] SINGLE_URLS = {
