@@ -6,6 +6,7 @@ public class WechatVoice {
 	public static final String DOWNLOAD_DIR = "downloads";
 	
 	public static final String[] URLS = {
+//			"http://mp.weixin.qq.com/s/wMpuc1FqQ2ogXpFXm1J0bQ", // 邓普顿教您逆向投资
 //			"http://mp.weixin.qq.com/s/P9mfL26D_GHXJdG7l897NA", // 万历十五年
 //			"http://mp.weixin.qq.com/s/THnkWwBbd4gYU4HtWUSVMA", // 大明王朝的七张面孔 合集
 //			"http://mp.weixin.qq.com/s/hCwUlV0nXSfEpaEZUgFxhw", //​ 财务自由之路 合集
